@@ -1,4 +1,7 @@
-/** @module billingTs */
+/**
+ * @module billingTs
+ * @see https://stripe.com/docs/api
+ */
 /**
  * Add new customer into external billing service
  * 

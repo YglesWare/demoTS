@@ -23,6 +23,3 @@ if (customerId.id) {
 /**
  * @typedef { import("./module_ts.mjs").tAddress } tBillingAddress - Imported from module billingTs
  */
-
-/** @tutorials test a la con */
-/** @tutorial test a la con */

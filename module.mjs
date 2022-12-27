@@ -1,7 +1,7 @@
 /** 
  * @module billing
- * @see https://stripe.com/docs/api/customers/create
  */
+
 /**
  * Add new customer into external billing service
  * @deprecated Please use module_ts file
@@ -9,7 +9,6 @@
  * @param {string} lastName - Customer last name
  * @param {string} email - Customer email for invoice
  * @param {object} address - Customer address
- * 
  * @returns {string}
  */
 const createCustomer = (firstName, lastName, email, address) => {
