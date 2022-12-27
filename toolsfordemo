@@ -1,0 +1,17 @@
+
+npm install --save-dev eslint-plugin-jsdoc
+
+{
+    "plugins": [
+        "jsdoc"
+    ]
+}
+
+plugin:jsdoc/recommended
+
+
+npm i eslint-config-airbnb-base eslint-plugin-meteor @babel/eslint-parser @babel/core/package.json eslint-plugin-no-only-tests eslint-plugin-import
+
+
+npm install clean-jsdoc-theme --save-dev
+npm i jsdoc-tsimport-plugin

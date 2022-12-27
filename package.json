@@ -1,0 +1,29 @@
+{
+  "name": "demots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "generate-docs": "jsdoc --configure .jsdoc --verbose *.mjs",
+    "generate-md": "jsdoc --configure .jsdocmd --verbose *.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-meteor": "^7.3.0",
+    "eslint-plugin-no-only-tests": "^3.1.0",
+    "jsdoc-tsimport-plugin": "^1.0.5",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "clean-jsdoc-theme": "^4.2.1",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "jsdoc": "^4.0.0",
+    "jsdoc-to-markdown": "^8.0.0"
+  }
+}
