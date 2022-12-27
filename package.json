@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.mjs",
   "scripts": {
-    "generate-docs": "jsdoc --configure .jsdoc --verbose *.mjs",
-    "generate-md": "jsdoc --configure .jsdocmd --verbose *.mjs"
+    "generate-docs": "jsdoc --configure .jsdoc --verbose *.mjs"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +16,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-meteor": "^7.3.0",
     "eslint-plugin-no-only-tests": "^3.1.0",
+    "http-server": "^14.1.1",
     "jsdoc-tsimport-plugin": "^1.0.5",
     "typescript": "^4.9.4"
   },
